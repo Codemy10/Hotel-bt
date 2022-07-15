@@ -178,5 +178,29 @@ body{
     background-color: #0e5bb9;
 }
 .about-us{
-    margin-top: 67px;
+    padding-top: 97px;
+    padding-bottom: 30px;
+    background-color: #f4f4f4;
+}
+.about-us .container .about-info{
+    float: left;
+    width: 50%;
+}
+.about-us .container .about-info h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.about-us .container .about-img{
+    width: 50%;
+    float: right;
+}
+.about-us .container .about-img img{
+    width: 70%;
+    margin: auto;
+    border-radius: 100%;
+    display: block;
+}
+.testimonials{
+    background: url('../uploads/steven-ungermann-aRT5UCf2MYY-unsplash.jpg') no-repeat center/cover;
+    padding: 30px 10px;
 }
