@@ -26,7 +26,7 @@ body{
     top: 0;
     overflow: auto;
     width: 100%;
-} 
+}
 .navbar .container{
     max-width: 1100px;
     padding:0px 30px;
@@ -60,7 +60,7 @@ body{
     /* margin-top: 800px; */
     background: url('../uploads/cover.jpg') no-repeat center/cover;
     height: 600px;
-    
+
 }
 .showcase .showcase-container{
     text-align: center;
@@ -118,7 +118,7 @@ body{
 .section .hotel-history p{
     line-height: 1.7em;
     font-size: 16px;padding-bottom: 30px;
-    
+
 }
 .section .hotel-history h3{
     /* line-height: 1.7em; */
@@ -229,4 +229,17 @@ body{
 }
 .name{
     text-align: right;
+}
+.contact{
+  background-color:#8cb9f0;
+}
+.error{
+  margin-top: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error h1{
+  font-size: 60px;
+  color:  rgb(18, 107, 216);
 }
