@@ -19,8 +19,8 @@
         <link rel="stylesheet" href="./css/responsive.css">
 
 </head>
-
-<body class="contact">
+<!-- body -->
+<body>
     <header>
         <nav class="navbar">
             <div class="container">
@@ -33,13 +33,52 @@
             </div>
         </nav>
     </header>
+    <!-- form -->
+    <div class="contact">
+      <div class="container">
+        <h1>Contact <span class="new">Us .</span> </h1>
+        <p>Please fill out the form to contact us .</p>
+        <form class="contact-form" action="index.html" method="post">
+          <label for="firstname">Fullname</label>
+          <input type="text" name="firstname" value=""placeholder="Enter your name">
 
-<div class="error">
-    <h1>404 not found</h1>
-</div>
+          <label for="email">Email</label>
+          <input type="email" name="email" value="" placeholder="Enter your email address">
 
+          <label for="message">Message</label>
+          <textarea name="message"placeholder="Enter Your Messsage"></textarea>
+
+          <input type="submit" name="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+
+    <div class="contact-address">
+      <div class="container">
+        <div class=" location con ">
+          <h2>Phone Number</h2>
+          <i class="fa fa-phone"></i>
+          <p>+234-906-682-5204</p>
+        </div>
+        <div class=" meals con ">
+          <h2>Address</h2>
+          <i class="fa fa-home"></i>
+          <p>208 isawo road agric ikorodu</p>
+        </div>
+        <div class=" gyms con ">
+          <h2>E-mail</h2>
+          <i class="fa fa-envelope"></i>
+          <p>codemy10@gmail.com</p>
+        </div>
+      </div>
+    </div>
 
      <!-- =========================== footer ========================= -->
+     <div class="clr"></div>
+     <footer class="footer">
+         &copy copyright 2022
+     </footer>
+
 
     <!-- jquery js file -->
     <script src="./js/jquery.3.4.1.js"></script>

@@ -141,7 +141,7 @@ body{
     /* height: ; */
     /* overflow: hidden; */
 }
-.services .location{
+.location{
     float: left;
     width: 33.33%;
     padding: 20px;
@@ -149,7 +149,7 @@ body{
     text-align: center;
     height: 100%;
 }
-.services .meals{
+.meals{
     float: left;
     width: 33.33%;
     padding: 20px;
@@ -158,7 +158,7 @@ body{
     height: 100%;
 
 }
-.services .gyms{
+.gyms{
     float: right;
     width: 33.33%;
     padding: 20px;
@@ -167,7 +167,7 @@ body{
     height: 100%;
 
 }
-.services i{
+ .section i{
     font-size: 50px;
     padding: 20px;
 }
@@ -230,16 +230,67 @@ body{
 .name{
     text-align: right;
 }
+/* contact page */
+.container h1 .new{
+  color: #333;
+}
 .contact{
-  background-color:#8cb9f0;
+  margin-top: 67px;
+  background-color: rgb(246, 249, 255);
+  padding: 40px 30px;
 }
-.error{
-  margin-top: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.contact .container h1{
+  color: #4e93e7;
+  font-size: 40px;
+  padding-bottom: 10px;
 }
-.error h1{
-  font-size: 60px;
-  color:  rgb(18, 107, 216);
+.contact .container p{
+  font-size:18px;
+  padding-bottom: 20px;
+}
+.contact .container form input[type=text],
+.contact .container form input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: none;
+  margin-bottom: 20px;
+  outline-color: #4e93e7;
+}
+
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  height: 170px;
+  outline-color: #4e93e7;
+}
+input[type=submit]{
+  padding: 20px 30px;
+  background-color: #4e93e7;
+  font-size: 16px;
+  color: white;
+  border: none;
+}
+.contact-address{
+  background-color:  #90b7e7;
+  padding: 50px 20pxx ;
+  /* height:300px; */
+}
+.con{
+  background-color: #90b7e7;
+}
+.con i{
+    font-size: 50px;
+    padding: 20px;
 }
