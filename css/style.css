@@ -135,7 +135,9 @@ body{
 .section .hotel-history a.link:hover{ background-color: rgb(18, 112, 228);}
 
 .clr{clear: both;}
-
+.our-services{
+    display: none;
+}
 .services{
     width: 100%;
     /* height: ; */

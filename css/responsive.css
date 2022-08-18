@@ -1,5 +1,5 @@
 /* smartphones */
-@media only screen and (max-width:500px){
+@media only screen and (max-width:720px){
     /* header / navigation */
     .navbar{
         position: relative;
@@ -33,12 +33,69 @@
         float: none;
         width: 100%;
         display: block;
-    }
+        height: auto;
+        overflow: auto;
+        /* padding: 80px 30px; */
 
+    }
+    .section .hotel-bg {
+        height: 400px;
+    }
+    .section{
+        height: auto;
+    }
     .location,.meals,.gyms{
         float: none;
         display: block;
         width: 100%;
         padding: 50px 25px;
+        overflow: auto;
     }
+    .showcase .showcase-container{
+        padding-top: 130px;
+        height: auto;
+    }
+    .showcase .showcase-container h1{
+        line-height: 60px;
+    }
+    .about-us{
+        padding-top: 50px;
+    }
+    .about-us .container .about-info ,.about-us .container .about-img img ,.about-us .container .about-img{
+        float: none;
+        width: 100%;
+    }
+    .about-us .container .about-img{
+        padding-top: 30px;
+    }
+    .our-services{
+        display: block;
+        text-align: center;
+        padding: 20px;
+        background-color: rgb(52, 135, 236);
+        /* margin-top: 50px; */
+        /* color: #333; */
+    }
+    .testimonials{
+        padding: 0;
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .testimonials .container h1 {
+        margin-bottom: 80px;
+        line-height: 40px;
+    }
+    .testimony{
+        width: 100%;
+    }
+    /* .testimonials .container .testimony img{
+        width: 100px;
+        float:none;
+        margin: auto;
+        display: inline-block;
+
+    } */
+    .contact{
+        margin-top: 0;
+      }
 }
