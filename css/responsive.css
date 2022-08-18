@@ -1,0 +1,44 @@
+/* smartphones */
+@media only screen and (max-width:500px){
+    /* header / navigation */
+    .navbar{
+        position: relative;
+    }
+    .container .logo{
+        display: block;
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    .navbar ul{
+        float: none;
+        text-align: center;
+    }
+    .navbar ul li{
+        float: none;
+    }
+    .navbar .container{
+        padding: 10px;
+    }
+    .navbar ul li a:hover{
+        background-color: rgb(169, 199, 236);
+        color: #0b60c9;
+    }
+    .navbar ul li a.current{
+        background-color: rgb(60, 112, 175);
+        color: #fff;
+    }
+    /* hotel history */
+    .section .hotel-bg ,.section .hotel-history{
+        float: none;
+        width: 100%;
+        display: block;
+    }
+
+    .location,.meals,.gyms{
+        float: none;
+        display: block;
+        width: 100%;
+        padding: 50px 25px;
+    }
+}
